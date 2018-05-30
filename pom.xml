@@ -20,7 +20,35 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>1.5.13.RELEASE</version>
     </parent>
-
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <profiles.active>dev</profiles.active>
+                <profile.postfix></profile.postfix>
+                <log.level>INFO</log.level>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <profiles.active>test</profiles.active>
+                <profile.postfix></profile.postfix>
+                <log.level>INFO</log.level>
+            </properties>
+        </profile>
+        <profile>
+            <id>prod</id>
+            <properties>
+                <profiles.active>prod</profiles.active>
+                <profile.postfix></profile.postfix>
+                <log.level>INFO</log.level>
+            </properties>
+        </profile>
+    </profiles>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
