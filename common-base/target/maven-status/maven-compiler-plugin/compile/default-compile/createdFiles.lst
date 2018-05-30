@@ -1,0 +1,5 @@
+com\xinhua\common\base\dto\req\BaseReq.class
+com\xinhua\common\base\dto\resp\BaseResponse.class
+com\xinhua\common\base\dto\BaseDTO.class
+com\xinhua\common\base\exception\BaseException.class
+com\xinhua\common\base\service\BaseService.class

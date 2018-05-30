@@ -1,14 +1,16 @@
-
-server:
+spring:
+  profiles:
+    active: @profiles.active@
+#server:
   #注册中心端口号
-  port: 8001
+#  port: 8001
 
-eureka:
-  instance:
-    hostname: localhost
+#eureka:
+#  instance:
+#    hostname: localhost
   ##false表明自己是一个server
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+#  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
