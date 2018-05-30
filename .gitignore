@@ -24,5 +24,6 @@ atlassian-ide-plugin.xml
 
 
 *.iml
+.mvn
 
 
