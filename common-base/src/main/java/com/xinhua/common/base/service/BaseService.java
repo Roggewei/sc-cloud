@@ -1,4 +1,4 @@
-package com.xinhua.common.base.dto.service;
+package com.xinhua.common.base.service;
 
 /**
  * @Description
