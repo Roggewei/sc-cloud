@@ -12,6 +12,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>eureka</module>
+        <module>zuul</module>
     </modules>
 
 
