@@ -1,4 +1,4 @@
-package com.xinhua.common.base.dto.exception;
+package com.xinhua.common.base.exception;
 
 /**
  * @Description
