@@ -11,7 +11,7 @@
     <artifactId>common-cloud</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>eureka1</module>
+        <module>eureka</module>
     </modules>
 
 
